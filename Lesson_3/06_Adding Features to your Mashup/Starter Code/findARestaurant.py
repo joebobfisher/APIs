@@ -7,9 +7,9 @@ import codecs
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
-foursquare_client_id = 'SMQNYZFVCIOYIRAIXND2D5SYBLQUOPDB4HZTV13TT22AGACD'
-foursquare_client_secret = 'IHBS4VBHYWJL53NLIY2HSVI5A1144GJ3MDTYYY1KLKTMC4BV'
-google_api_key = 'AIzaSyBz7r2Kz6x7wO1zV9_O5Rcxmt8NahJ6kos'
+foursquare_client_id = 'PPLTRCLFQWHDYILXAT3G3B0RLK15VFLQIUT4KT51AXAVFAL2'
+foursquare_client_secret = 'D2FQPOZDFUQGYURIAGEJZRYN1XG3BFRYNEHWXSR1DPF41HYY'
+google_api_key = 'AIzaSyDMJe0NqKhTlH9L6LxdfosucGk4CDwHHOY'
 
 def getGeocodeLocation(inputString):
     #Replace Spaces with '+' in URL
